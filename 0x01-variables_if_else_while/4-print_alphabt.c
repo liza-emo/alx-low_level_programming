@@ -2,17 +2,17 @@
 #include <string.h>
 
 /**
- *main - print alphabet except e and q
+ * main - entry point
  *
- *return 0, if success
- */
+ * Return: 0 if successful, -1 if errors
+*/
 int main(void)
 {
 	char alp;
 
-	for (alp = 'a'; alp <= 'z'; alp++)
+	for (alp = 'a'; alp <= 'z'; ++alp)
 	{
-		if (alp == 'e' || alp == 'q')
+		if (alp == 'q' || alp == 'e')
 		{
 			continue;
 		}
