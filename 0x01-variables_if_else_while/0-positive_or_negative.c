@@ -6,8 +6,7 @@
  *main entry point
  *
  * return if successful, -1 if errors
- */
-int main(void)
+ */int main(void)
 {
 	int n;
 
