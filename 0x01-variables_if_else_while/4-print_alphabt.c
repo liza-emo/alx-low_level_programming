@@ -3,8 +3,10 @@
 
 /**
  *main - print alphabet except e and q
+ *
  *return 0
- */int main(void)
+ */
+int main(void)
 {
 	char alp;
 
