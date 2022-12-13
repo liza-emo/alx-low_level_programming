@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
-  *main - print all possible two-digit combinations
+  *main - print all possible different three-digit combinations
   *
   *Return: 0 (successful)
   */
