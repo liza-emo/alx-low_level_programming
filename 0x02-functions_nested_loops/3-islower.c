@@ -3,9 +3,9 @@
 /**
   *_islower - checks for lowercase character
   *
+  *@c: character to be checked
   *Return: 1 if lowercase, 0 otherwise
   */
-int _islower(int c);
 int _islower(int c)
 {
 	int i = 'a';
