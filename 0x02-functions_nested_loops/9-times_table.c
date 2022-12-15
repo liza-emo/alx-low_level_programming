@@ -10,6 +10,7 @@ void times_table(void)
 	int counter1;
 	int counter2;
 	int result;
+
 	for (counter1 = 0; counter1 < 10; counter1++)
 	{
 		for (counter2 = 0; counter2 < 10; counter2++)
@@ -36,5 +37,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-	return;
 }
