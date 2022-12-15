@@ -6,7 +6,7 @@
  *Description: prints the absolute vaue of an integer
  *Return: integer
  */
-int _abs(int)
+int _abs(int n)
 {
 	if (n < 0)
 	{
