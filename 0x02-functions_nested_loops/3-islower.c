@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   *_islower - checks for lowercase character
   *
@@ -10,6 +11,7 @@ int _islower(int c)
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
+		/* refer int c*/
 		if (c == i)
 		{
 			return (1);
