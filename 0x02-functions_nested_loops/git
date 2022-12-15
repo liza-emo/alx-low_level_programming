@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+git commit -m "Nested loop and functions"
+git push
+
