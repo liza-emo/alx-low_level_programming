@@ -2,7 +2,7 @@
 
 /**
  *_abs - Entry point
- *@n is an integer
+ *@n: is an integer
  *Description: prints the absolute vaue of an integer
  *Return: integer
  */
