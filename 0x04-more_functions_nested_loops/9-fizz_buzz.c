@@ -1,27 +1,34 @@
-#include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - Prints buzz each of 3 and 5
- * Return: Always 0
+ * main - Fizz Buzz
+ *
+ * Return: null
  */
 int main(void)
 {
-	int num;
-
-	for (num = 1; num <= 100; num++)
-	{
-		if (num % 3 == 0 && num % 5 == 0)
-			printf("FizzBuzz ");
-		else if (num % 3 == 0 && num % 5 != 0)
-			printf("Fizz ");
-		else if (num % 3 != 0 && num % 5 == 0)
-			printf("Buzz ");
-		else if (num == 1)
-			printf("%d ", num);
-		else if (num == 100)
-			printf("%d\n", num);
-		else
-			printf("%d ", num);
-	}
-	return (0);
+int counter;
+printf("%d", 1);
+for (counter = 2; counter <= 100; counter++)
+{
+if (counter % 5 == 0 && counter % 3 == 0)
+{
+printf(" FizzBuzz");
+}
+else if (counter % 5 == 0)
+{
+printf(" Buzz");
+}
+else if (counter % 3 == 0)
+{
+printf(" Fizz");
+}
+else
+{
+printf(" %d", counter);
+}
+}
+printf("\n");
+return (0);
 }
