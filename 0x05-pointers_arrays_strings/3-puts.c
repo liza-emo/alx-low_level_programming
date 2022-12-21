@@ -9,11 +9,11 @@
 void _puts(char *str)
 {
 	int checker = 0;
+
 	while (*(str + checker) != '\0')
 	{
 		_putchar(*(str + checker));
 		checker++;
 	}
 	_putchar('\n');
-	return;
 }
