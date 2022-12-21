@@ -5,7 +5,7 @@
  * Return: no return.
  */
 
-void print_rev(char *s)
+void print_rev(char *s);
 {
 	int count = 0;
 
