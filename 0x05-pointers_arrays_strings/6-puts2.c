@@ -4,7 +4,7 @@
  * puts2 - prints every other character
  * @str: string to print
  *
- * Return: null
+ * Return: No return value
  */
 void puts2(char *str)
 {
