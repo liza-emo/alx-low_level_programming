@@ -6,7 +6,7 @@
  * @a: address to first array value
  * @n: number of values to print
  *
- * Return: null
+ * Return: No return value
  */
 void print_array(int *a, int n)
 {
