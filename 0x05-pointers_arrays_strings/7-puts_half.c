@@ -4,7 +4,7 @@
  * puts_half - prints second half of a string
  * @str: input string to print
  *
- * Return: null
+ * Return: no return value
  */
 void puts_half(char *str)
 {
