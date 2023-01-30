@@ -5,7 +5,6 @@
  * @h: pointer to head of list to be printed
  * Return: number of nodes in linked list
 */
-
 size_t print_list(const list_t *h)
 {
     int i = 0;
